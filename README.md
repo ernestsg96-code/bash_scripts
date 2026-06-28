@@ -1,8 +1,8 @@
-# Bash Scripts
+# Linux Admin / Bash Scripts
 
 In this repository is intented to a record of my progress in bash scripts while learning Linux system administration. Each folder being a different topic.
 
-##
+## Topics
 
 - 'variables/' - working with variables and command substitution
 - 'conditionals/' - if/else, test operators, file checks
