@@ -1,9 +1,10 @@
 #!/bin/bash
 
-count_files(){
-	
-	ls $1 | wc -l	
-	ls $1
+count_files(){	
+	echo "Total files: "
+	find $1 -maxdepth 1 -type f | wc -l
+	echo "These are the files: "	
+	find $1 -maxdepth 1 -type f	
 
 }
 
